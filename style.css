@@ -1,7 +1,7 @@
 
 @font-face {
   font-family:main;
-  src: url(assests/brown_volky/BROWN\ VOLKY.ttf);
+  src: url(./font/BROWN\ VOLKY.ttf);
 }
 @keyframes rotate {
   0% {
@@ -24,6 +24,9 @@
     transform: rotateX("0deg");
     font-family: ANDMOREY;
   }
+}
+body{
+  font-family: main;
 }
 ::selection{
   background-color: #756325;

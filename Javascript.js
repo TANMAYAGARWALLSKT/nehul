@@ -6,7 +6,7 @@ function bhaikaLoader() {
     top: "-100vh",
     duration:2,
     ease: "Expo.inOut",
-    delay:3,
+    delay:5,
   });
 }
 bhaikaLoader();
