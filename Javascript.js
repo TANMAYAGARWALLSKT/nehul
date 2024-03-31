@@ -4,9 +4,9 @@
 function bhaikaLoader() {
   gsap.to(".loader", {
     top: "-100vh",
-    duration: 1.5,
+    duration:2,
     ease: "Expo.inOut",
-    delay:1,
+    delay:3,
   });
 }
 bhaikaLoader();

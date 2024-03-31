@@ -1,9 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-::selection{
-  background-color: #927b2e;
-}
+
 @font-face {
   font-family:main;
   src: url(assests/brown_volky/BROWN\ VOLKY.ttf);
@@ -30,9 +25,8 @@
     font-family: ANDMOREY;
   }
 }
-body{
-   font-family:main;
-  
+::selection{
+  background-color: #756325;
 }
 #logo h1 {
   animation: 1s linear infinite rotateY;
