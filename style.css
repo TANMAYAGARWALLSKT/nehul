@@ -132,7 +132,6 @@ body{
 }
 
 .flip-card-front {
- 
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -228,14 +227,11 @@ body{
   font-size: 1.2em;
   transform-origin: 0 100px;
 }
-#LOGO1{
-  background-color: black;
-}
+
 
 .topcepage{
   color: #927b2e;
-  
-background: linear-gradient(90deg, hsla(204, 67%, 8%, 1) 1%, hsla(220, 78%, 29%, 1) 100%);
+  background-color: #082635;
 }
 .border{
   border: #927b2e 5px solid;
@@ -307,7 +303,6 @@ background: linear-gradient(90deg, hsla(204, 67%, 8%, 1) 1%, hsla(220, 78%, 29%,
 .video{
   width: 25vw;
   height: 25vw;
- 
 }
 .video1{
   width: 30vw;
@@ -319,14 +314,6 @@ background: linear-gradient(90deg, hsla(204, 67%, 8%, 1) 1%, hsla(220, 78%, 29%,
   width: 5px;
   
 }
-.colorburn{
-  mix-blend-mode:color-burn;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@400..700&display=swap');
-
-
 
 .fatface-regular {
   font-family: "Abril Fatface", serif;
