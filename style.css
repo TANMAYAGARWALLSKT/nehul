@@ -82,7 +82,12 @@ body{
   position:static;
 }
 .flip-card-container {
-  border: #927b2e 3px solid;
+  /* border: #927b2e 3px solid; */
+  
+  border-left: #927b2e 3px solid ;
+  border-top: #927b2e 3px solid;
+  border-bottom: #927b2e 3px solid;
+
   display: flex;
   flex-wrap: nowrap;
   /* width: 100%; Adjust width as needed */ /* Center the container horizontally */
@@ -234,7 +239,7 @@ body{
   background-color: #082635;
 }
 .border{
-  border: #927b2e 5px solid;
+  border: #927b2e 3px solid;
   border-radius: 15px;
 
 }
