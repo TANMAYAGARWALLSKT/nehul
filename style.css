@@ -1,6 +1,5 @@
-
 @font-face {
-  font-family:main;
+  font-family: main;
   src: url(./font/BROWN\ VOLKY.ttf);
 }
 @keyframes rotate {
@@ -25,10 +24,10 @@
     font-family: ANDMOREY;
   }
 }
-body{
+body {
   font-family: main;
 }
-::selection{
+::selection {
   background-color: #756325;
 }
 #logo h1 {
@@ -37,7 +36,6 @@ body{
 #DarkMode img:hover {
   animation: 10s linear infinite rotate;
 }
-
 
 @keyframes rotateZ {
   0% {
@@ -50,7 +48,6 @@ body{
   }
 }
 
-
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -58,7 +55,6 @@ body{
   100% {
     transform: rotate(360deg);
   }
-  
 }
 /* #page1{
   background-image: url(assests/2k_stars_milky_way.jpg);
@@ -75,18 +71,14 @@ body{
     opacity: 100%;
   }
 }
-#page3{
+#page3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position:static;
+  position: static;
 }
 .flip-card-container {
   /* border: #927b2e 3px solid; */
-  
-  border-left: #927b2e 3px solid ;
-  border-top: #927b2e 3px solid;
-  border-bottom: #927b2e 3px solid;
 
   display: flex;
   flex-wrap: nowrap;
@@ -96,12 +88,19 @@ body{
   /* padding-left: 10vw; */
   /* padding-top:5vw ; */
   /* padding-bottom: 5vw; */
-  width: 85vw;
- padding-top:10vh;
- padding-bottom:10vh;
- padding-left:3vw;
+  width: 100vw;
+  margin-left: 18vw;
 
+  border-left: #927b2e 3px solid;
   border-radius: 10px;
+}
+.hi {
+  width:500vw;
+  border-top: #927b2e 3px solid;
+  border-bottom: #927b2e 3px solid;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 3vw;
 }
 
 .flip-card {
@@ -110,12 +109,12 @@ body{
   height: 30vw; /* Adjust card height as needed */
   /* margin: 10px; Add spacing between cards */
   perspective: 1000px; /* Create 3D effect */
-  object-fit:cover;
+  object-fit: cover;
   object-position: center;
 }
 
 .flip-card-inner {
-  border:#927b2e solid 2px;
+  border: #927b2e solid 2px;
   position: relative;
   width: 100%;
   height: 100%;
@@ -142,12 +141,11 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size:2vw;
+  font-size: 2vw;
   font-weight: bolder;
-  color: #927b2e  ;
-
+  color: #927b2e;
 }
-#circle{
+#circle {
   position: fixed;
   z-index: 999;
   top: 20vh;
@@ -157,11 +155,9 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
-#text{
-  color:#927b2e;
+#text {
+  color: #927b2e;
   font-size: 5vw;
 }
 
@@ -172,18 +168,16 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size:2vw;
+  font-size: 2vw;
   font-weight: bolder;
-  color: #927b2e  ;
-  font-size:2vw;
+  color: #927b2e;
+  font-size: 2vw;
   /* color: #927b2e  ; */
   transform: rotateY(180deg);
 }
 
-
-#circle:hover{
-  left:-12vw
-
+#circle:hover {
+  left: -12vw;
 }
 /* Add content styling as needed (e.g., headings, text, images) */
 .circle {
@@ -216,14 +210,14 @@ body{
 
 @keyframes rotateText {
   0% {
-      transform: rotate(-360deg);
+    transform: rotate(-360deg);
   }
   100% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
-.rotateText{
-   animation: rotateText 10s linear infinite;
+.rotateText {
+  animation: rotateText 10s linear infinite;
 }
 
 .text span {
@@ -233,68 +227,105 @@ body{
   transform-origin: 0 100px;
 }
 
-
-.topcepage{
+.topcepage {
   color: #927b2e;
   background-color: #082635;
 }
-.border{
+.border {
   border: #927b2e 3px solid;
   border-radius: 15px;
-
 }
-#containerpage2 { margin: 0%;  color:#927b2e; }
+#containerpage2 {
+  margin: 0%;
+  color: #927b2e;
+}
 
-#circlepage2 { position: relative; width: 100%; padding-bottom: 100%; overflow: hidden;  color:#927b2e; }
+#circlepage2 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  color: #927b2e;
+}
 
-#circlepage2 text { font-family: 'Helvetica Neue', Arial; font-size: 16px; font-weight: bold; color:#927b2e; }
+#circlepage2 text {
+  font-family: "Helvetica Neue", Arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: #927b2e;
+}
 
-#circlepage2 svg { position: absolute; left: 0; top: 0; width: 100%; height: 540px; color:#927b2e;
+#circlepage2 svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 540px;
+  color: #927b2e;
 
   -webkit-animation-name: rotatepage2;
-     -moz-animation-name: rotatepage2;
-      -ms-animation-name: rotatepage2;
-       -o-animation-name: rotatepage2;
-          animation-name: rotatepage2;
+  -moz-animation-name: rotatepage2;
+  -ms-animation-name: rotatepage2;
+  -o-animation-name: rotatepage2;
+  animation-name: rotatepage2;
   -webkit-animation-duration: 5s;
-     -moz-animation-duration: 5s;
-      -ms-animation-duration: 5s;
-       -o-animation-duration: 5s;
-          animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -ms-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
-     -moz-animation-iteration-count: infinite;
-      -ms-animation-iteration-count: infinite;
-       -o-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-     -moz-animation-timing-function: linear;
-      -ms-animation-timing-function: linear;
-       -o-animation-timing-function: linear;
-          animation-timing-function: linear;
-
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 
 @-webkit-keyframes rotatepage2 {
-    from { -webkit-transform: rotate(360deg); }
-    to { -webkit-transform: rotate(0); }
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0);
+  }
 }
 @-moz-keyframes rotatepage2 {
-    from { -moz-transform: rotate(360deg); }
-    to { -moz-transform: rotate(0); }
+  from {
+    -moz-transform: rotate(360deg);
+  }
+  to {
+    -moz-transform: rotate(0);
+  }
 }
 @-ms-keyframes rotatepage2 {
-    from { -ms-transform: rotate(360deg); }
-    to { -ms-transform: rotate(0); }
+  from {
+    -ms-transform: rotate(360deg);
+  }
+  to {
+    -ms-transform: rotate(0);
+  }
 }
 @-o-keyframes rotatepage2 {
-    from { -o-transform: rotate(360deg); }
-    to { -o-transform: rotate(0); }
+  from {
+    -o-transform: rotate(360deg);
+  }
+  to {
+    -o-transform: rotate(0);
+  }
 }
 @keyframes rotatepage2 {
-    from { transform: rotate(360deg); }
-    to { transform: rotate(0); }
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0);
+  }
 }
-#imgepage2{
+#imgepage2 {
   position: relative;
   width: 15vw;
   height: 15vw;
@@ -302,22 +333,19 @@ body{
   /* background: #ccc; */
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   /* overflow: hidden; */
 }
-.video{
+.video {
   width: 25vw;
   height: 25vw;
 }
-.video1{
+.video1 {
   width: 30vw;
   height: 30vw;
- 
-
 }
 ::-webkit-scrollbar {
   width: 5px;
-  
 }
 
 .fatface-regular {
@@ -327,25 +355,24 @@ body{
   /* font-size: 1vh; */
   font-size: 2rem;
 }
-.borderbt{
+.borderbt {
   border-bottom: #927b2e 1px solid;
   border-radius: 15px;
 }
 .imagetable {
   rotate: "90deg";
 }
-.boxshadow{
+.boxshadow {
   box-shadow: 0px 0px 10px black;
 }
 .animation:hover {
-transform: scale(1.1);
-  
+  transform: scale(1.1);
 }
-.bordermap{
+.bordermap {
   border: #927b2e 5px solid;
   border-radius: 15px;
 }
-.bordermind{
+.bordermind {
   border: #927b2e 5px solid;
   /* border-radius: 15px; */
 }
@@ -356,9 +383,15 @@ transform: scale(1.1);
 }
 
 @keyframes flickerAnimation {
-  0% { opacity: 1; }
-  50% { opacity: 0; } /* Text fades to invisible at 50% */
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  } /* Text fades to invisible at 50% */
+  100% {
+    opacity: 1;
+  }
 }
 .videoOURJU {
   margin: 0 auto; /* Center the video horizontally */
@@ -375,14 +408,23 @@ transform: scale(1.1);
 
 .text-pop {
   position: absolute; /* Absolute positioning for random placement */
-  color:aliceblue; /* Text color */
+  color: aliceblue; /* Text color */
   font-size: 3vw; /* Adjust font size */
   opacity: 0; /* Initially invisible */
   animation: popAnimation 2s ease-in-out; /* Animation name, duration, and easing */
 }
 
 @keyframes popAnimation {
-  0% { opacity: 0; transform: scale(0); } /* Start invisible and zoomed out */
-  50% { opacity: 0.4; transform: scale(1.2); } /* Pop in and zoom in at mid-animation */
-  100% { opacity: 0; transform: scale(1); } /* Fade out and maintain size at the end */
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  } /* Start invisible and zoomed out */
+  50% {
+    opacity: 0.4;
+    transform: scale(1.2);
+  } /* Pop in and zoom in at mid-animation */
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  } /* Fade out and maintain size at the end */
 }
