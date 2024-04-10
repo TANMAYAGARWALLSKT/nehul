@@ -26,7 +26,8 @@ gsap.to(".hi", {
     trigger: ".page3",
     start: "top 0",
     pin: ".page3",
-    scrub: true,
+    scrub: 5,
+  
     // markers: true,
   },
 });
